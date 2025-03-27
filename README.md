@@ -215,26 +215,6 @@ Similarly, to redirect the standard output of a command, we can use the `dup2` f
 
 In the Pipex project, we can use these file descriptor redirection techniques to implement the pipeline mechanism. By creating pipes using the `pipe` function, we can establish communication channels between commands. We can then redirect the standard output of one command to the write end of the pipe, and the standard input of the next command to the read end of the pipe. This allows the output of one command to serve as the input to the next command, effectively chaining the commands together.
 
-In the context of the Pipex project, "here_doc" refers to a type of redirection in the shell known as a "here document" or "heredoc". This is a way of defining a block of input within a shell script.
-
-A here document is created using the << operator followed by a delimiter. The shell then reads input until it encounters a line containing only the delimiter.
-
-An example of using a here document in the Pipex project would be:
-
-```bash
-./pipex here_doc EOF cat sort
- uniq outfile.txt << EOF
-Mauriziano
-Mauriziano
-Genoveffa
-Igor
-Uncle
-Home
-EOF
-```
-
-This would redirect the contents of the here document to the `cat` command, which would then be piped to the `sort` command. The output would be written to the `outfile.txt` file.
-
 <p>
 <br>
 
@@ -434,49 +414,3 @@ I've tested my Pipex implementation using various tools, which have been instrum
 <a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex6.png">
 </p>
 <br>
-
-## Developed Skills
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,c,vim,vscode" />
-  </a>
-</p><br>
-
-## References
-
-- [Visualization of a fork call in C](https://www.youtube.com/watch?v=QD9YKSg3wCc&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv): A video demonstrating how the `fork` system call works in C, with visual aids.
-- [Calling fork multiple times](https://www.youtube.com/watch?v=94URLRsjqMQ&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=2): A tutorial on the effects and outcomes of calling `fork` multiple times in a C program.
-- [Practical use case for fork and pipe in C](https://www.youtube.com/watch?v=6u_iPGVkfZ4&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=4): An example of using `fork` and `pipe` together in a real-world C application.
-- [Simulating the pipe "|" operator in C](https://www.youtube.com/watch?v=6xbLgZpOBi8&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=5): A guide on how to simulate the pipe `|` operator in C using system calls.
-- [Communicating between processes (using pipes) in C](https://www.youtube.com/watch?v=Mqb2dVRe0uo&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=6): A tutorial on inter-process communication using pipes in C.
-- [Introduction to FIFOs (aka named pipes) in C](https://www.youtube.com/watch?v=2hba3etpoJg&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=7): An introduction to using FIFOs (named pipes) for communication between processes in C.
-- [8 Design Patterns EVERY Developer Should Know](https://www.youtube.com/watch?v=tAuRQs_d9F8&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=8): A video covering eight essential design patterns that every developer should be familiar with.
-- [fd, dup()/dup2() system call tutorial](https://www.youtube.com/watch?v=EqndHT606Tw&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=9): A tutorial on file descriptors and the `dup`/`dup2` system calls in C.
-- [pipex tutorial — 42 project](https://csnotes.medium.com/pipex-tutorial-42-project-4469f5dd5901): A detailed tutorial on implementing the Pipex project, including code examples and explanations.
-- [pipe](https://www.techtarget.com/whatis/definition/pipe#:~:text=In%20Unix%20systems%2C%20a%20pipe,or%20Unix%20shell%20is%20used.): An explanation of pipes in Unix systems, their purpose, and usage.
-- [pipex guide](https://reactive.so/post/42-a-comprehensive-guide-to-pipex): An in-depth guide covering the theoretical and practical aspects of the Pipex project.
-
-<br>
-
-## Support and Contributions
-
-<p align="center">
-If you find this repository helpful, please consider starring it to show your support. Your support is greatly appreciated!</p>
-
-<p align="center">
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
-<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
-
-<br>
-
-## Author
-
-<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
-<p align="center">
-<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
-<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
-<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
-<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
-
-<hr/>
