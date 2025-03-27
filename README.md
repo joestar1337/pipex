@@ -14,40 +14,6 @@
     <a href="https://github.com/f-corvaro/PIPEX"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/PIPEX?color=yellow" /></a>
 </p>
 
-<h3 align="center">Index</h3>
-<p align="center">
- <a href="#introduction">Introduction</a><br>
- <a href="#overview">Overview</a><br>
- <a href="#folder-structure">Folder Structure</a><br>
- <a href="#project-requirements---mandatory-part">Project Requirements - Mandatory Part</a><br>
- <a href="#important-rules-and-guidelines">Important Rules and Guidelines</a><br>
- <a href="#program-name">Program name</a><br>
- <a href="#files-to-submit">Files to Submit</a><br>
- <a href="#allowed-external-functions">Allowed External Functions</a><br>
- <a href="#error-handling-guidelines">Error Handling Guidelines</a><br>
- <a href="#pipex-usage-examples">Pipex Usage Examples</a><br>
- <a href="#project-requirements---bonus-part">Project Requirements - Bonus Part</a><br>
- <a href="#theoretical-background">Theoretical Background</a><br>
- <a href="#unix-pipe">Unix Pipe</a><br>
- <a href="#understand-the-required-functions">Understand the Required Functions</a><br>
- <a href="#file-descriptors-and-redirections">File descriptors and redirections</a><br>
- <a href="#file-permissions">File permissions</a><br>
- <a href="#process-management-in-pipex">Process Management in Pipex</a><br>
- <a href="#pids">PIDs</a><br>
- <a href="#exit-code">Exit Code</a><br>
- <a href="#checking-for-open-processes-and-file-descriptors">Checking for Open Processes and File Descriptors</a><br>
- <a href="#environment">Environment</a><br>
- <a href="#environment-variables">Environment Variables</a><br>
- <a href="#evaluation-process">Evaluation Process</a><br>
- <a href="#usefull-testing-tools">Useful Testing Tools</a><br>
- <a href="#correction-sheet">Correction Sheet</a><br>
- <a href="#developed-skills">Developed Skills</a><br>
- <a href="#references">References</a><br>
- <a href="#support-and-contributions">Support and Contributions</a><br>
- <a href="#author">Author</a><br>
-</p>
-<br>
-
 ## Introduction
 
 <p align="justify">
