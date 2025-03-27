@@ -361,7 +361,6 @@ Without the `PATH` variable, you would need to hardcode the paths to the executa
 Therefore, managing the scenario where there's no environment is a critical aspect of the Pipex project. Your program should be capable of detecting this situation and either handle it gracefully (for example, by providing a meaningful error message), or find a method to execute the commands without depending on the `PATH` variable.
 
 <p>
-
 #### Environment Variables
 
 <p align="justify">
