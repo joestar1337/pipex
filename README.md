@@ -1,9 +1,3 @@
-# pipex
-<h1 align="center"><p align="center">
-  <a href="https://github.com/f-corvaro/PIPEX">
-	<img src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/pipex.png" alt="PIPEX"></h1>
-</p>
-
 ## Introduction
 
 <p align="justify">
