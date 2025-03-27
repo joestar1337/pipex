@@ -210,39 +210,6 @@ This should behave like:
 <p>
 <br>
 
-## Project Requirements - Bonus Part
-
-<p align="justify">
-
-The bonus part of the project introduces additional requirements to handle multiple pipes. For example, the following command:
-
-```bash
-$> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2
-```
-
-should behave like:
-
-```bash
-< file1 cmd1 | cmd2 | cmd3 ... | cmdn > file2
-```
-
-In addition, the program needs to support the use of `«` and `»` when the first parameter is `"here_doc"`. For instance, the command:
-
-```shell
-$> ./pipex here_doc LIMITER cmd cmd1 file
-```
-
-should behave like:
-
-```shell
-cmd << LIMITER | cmd1 >> file
-```
-
-These enhancements allow for more flexibility and functionality in the program, enabling the execution of complex command sequences and input/output redirection.
-
-<p>
-<br>
-
 ## Theoretical Background
 
 ### Unix Pipe
