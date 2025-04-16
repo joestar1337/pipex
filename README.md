@@ -65,7 +65,6 @@ By understanding and implementing these technical aspects, students gain valuabl
 │   └── Makefile
 └── README.md
 ```
-
 <br>
 
 ## Project Requirements - Mandatory Part
