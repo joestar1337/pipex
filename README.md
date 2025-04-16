@@ -377,39 +377,3 @@ Environment variables provide a flexible way to configure and customize the beha
 
 <p>
 <br>
-
-## Evaluation Process
-
-### Usefull Testing Tools
-
-I've tested my Pipex implementation using various tools, which have been instrumental in identifying edge cases and other significant scenarios. The most effective ones are:
-
-- <a href="https://github.com/gmarcha/pipexMedic">PipexMedic</a>: A specialized tool for Linux systems. It provides valuable functionality for verifying file permissions, exit code statuses, output files, standard streams, and parallelism.
-- <a href="https://github.com/vfurmane/pipex-tester">pipex-tester</a>: A comprehensive tester for Pipex.
-
-- <a href="https://github.com/gsilva-v/PipexTester">PipexTester</a>: Another robust tool for testing Pipex implementations.
-
-- <a href="https://github.com/Yoo0lh/pipex_tester_42">pipex_tester_42</a>: A useful tester for Pipex projects.
-
-**Note: The management of errors and file permissions may vary depending on the system where the tool is executed.**
-
-### Correction Sheet
-
-<p align="center">
-<a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex1.png">
-</p>
-<p align="center">
-<a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex2.png">
-</p>
-<p align="center">
-<a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex3.png">
-</p>
-<p align="center">
-<a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex4.png">
-</p>
-<p align="center">
-<a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex5.png">
-<p align="center">
-<a href="https://github.com/f-corvaro/PIPEX"><img width="650" src="https://github.com/f-corvaro/PIPEX/blob/main/.extra/.cs/pipex6.png">
-</p>
-<br>
